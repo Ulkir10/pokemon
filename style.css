@@ -1,0 +1,128 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+}
+body{
+    background-color: #212529;
+}
+.container{
+    width: 1440px;
+    margin: 0 auto;
+    padding: 0 76px;
+}
+.imagehead{
+    width: 500;
+    height: 183;
+    left: 410px;
+    padding: 90px 0 90px 400px;
+}
+.multipliers{
+    color: #80007C;
+    font-weight: 900;
+    font-size: 14px;
+    line-height: 21px;
+    letter-spacing: 0%;
+    vertical-align: middle;
+
+}
+.h1{
+    text-align: center;
+    font-size: 40px;
+    color: white;
+    margin: 40px;
+}
+.input-elements{
+    width: 100%;
+}
+.card-header {
+    width: 36px;
+    height: 34px;
+    left: 213.3px;  
+    background-color: #FF3333; 
+    color: #fff;
+
+}
+.pokemon-id{
+    width: 26px;
+    height: 16px;
+    top: 9px;
+    left: 5px;
+    font-weight: 800px;
+    font-size: 15.5px;
+    line-height: 24px;
+    letter-spacing: 0%;
+    vertical-align: middle;
+
+}
+.input-elements input , .input-elements select{
+    width: 210px;
+    height: 36px;
+    border-radius: 6px;
+    font-family: Roboto;
+    font-weight: 400;
+    font-size: 15.88px;
+}
+#searchButton{
+    background-color: #198754;
+    color: white;
+}
+.containerPokemons{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 30px;
+    
+}
+.card{
+    width: 250px;
+    height: 450px;
+    border-radius: 10px;
+    background-color: #FFFF00;
+    text-align: center;
+    padding: 30px 50px 46px 50px;
+    margin-bottom: 60px;
+}
+.pokemon-img{
+    margin: 28px 0;
+}
+.id{
+    background-color: red;
+    color: white;
+    width: 36px;
+    height: 34px;
+    left: 213.3px;  
+}
+.card-footer {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background-color: #4CAF50; /* Зеленый цвет для примера, можно поменять */
+    background-color: #B2EBF2; /* Похож на цвет на карточке */
+    color: #333;
+    padding: 8px 12px;
+    border-top-right-radius: 15px; /* Закругление угла */
+    font-weight: bold;
+    font-size: 1.1em;
+}
+.pokemon-type{
+    width: 130px;
+    height: 40px;
+    background-color: #C4E4FF;
+    border-radius: 20px;
+    align-content: center;
+}
+.pokemon-weight{
+    font-weight: 700;
+    margin-top: 30px;
+}
+.candy_count{
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0%;
+    vertical-align: middle;
+
+}
